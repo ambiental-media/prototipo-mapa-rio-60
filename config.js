@@ -26,10 +26,10 @@ var config = {
             image: './assets/placeholder_image.webp',
             description: 'Descrição ponto 1',
             location: {
-                center: [-43.4096, -22.9035],
-                zoom: 14,
-                pitch: 60,
-                bearing: -17.6
+                center: [-43.4596, -22.9328],
+                zoom: 10.9,
+                pitch: 45,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -56,16 +56,10 @@ var config = {
             image: './assets/placeholder_image.webp',
             description: 'Descrição ponto 2',
             location: {
-                center: [-43.3096, -22.9032],
-                zoom: 13,
-                pitch: 55,
-                bearing: 180,
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
+                center: [-43.4096, -22.9035],
+                zoom: 14,
+                pitch: 60,
+                bearing: -17.6
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
@@ -81,10 +75,16 @@ var config = {
             image: './assets/placeholder_image.webp',
             description: 'Descrição ponto 3',
             location: {
-                center: [ -43.2096, -22.9030],
-                zoom: 12,
-                pitch: 50,
-                bearing: -90
+                center: [-43.3096, -22.9032],
+                zoom: 13,
+                pitch: 55,
+                bearing: 180,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -100,10 +100,10 @@ var config = {
             image: './assets/placeholder_image.webp',
             description: 'Descrição ponto 4',
             location: {
-                center: [-43.1096, -22.9028],
-                zoom: 11,
-                pitch: 45,
-                bearing: 0
+                center: [ -43.2296, -22.9030],
+                zoom: 12,
+                pitch: 50,
+                bearing: -90
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
